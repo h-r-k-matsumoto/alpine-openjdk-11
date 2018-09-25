@@ -1,8 +1,8 @@
 FROM alpine:3.8
 
 RUN mkdir /opt; cd /opt; \
-    wget https://download.java.net/java/early_access/alpine/27/binaries/openjdk-11+27_linux-x64-musl_bin.tar.gz \
-    && tar zxf openjdk-11+27_linux-x64-musl_bin.tar.gz \
+    wget https://download.java.net/java/GA/jdk11/28/GPL/openjdk-11+28_linux-x64_bin.tar.gz \
+    && tar zxf openjdk-11+28_linux-x64_bin.tar.gz \
     && ln -s jdk-11 java \
     && rm -f openjdk-11+27_linux-x64-musl_bin.tar.gz
 
