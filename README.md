@@ -6,6 +6,13 @@ The image using this docker file is public to https://hub.docker.com/r/hirokimat
 Please refer to the following for the background that I needed.
 https://qiita.com/h-r-k-matsumoto/items/1725fc587ce127671560
 
+## important
+There are people who still use this docker image.  
+I recommend using image of alpine tag of [AdoptOpenJDK](https://hub.docker.com/r/adoptopenjdk/openjdk11/tags/).  
+It is not musl base, but it is lightweight.  
+
+Thank you for reading.
+
 # Result
 
 The size of 1 GB has been reduced to about 85 MB.
